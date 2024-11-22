@@ -1,0 +1,109 @@
+
+<! DOCTYPE html>
+<html>
+  <head>
+    <title> study with Leena </title>
+  </head>
+  <body>
+   <h1 align="center" id="header"> Study With Leena </h1>
+   <p  align="center"> <img src="Leena.jpg" width="50px" height="70px"> </p>   <! IF the image is in a folder then type folder name 1st/image name>
+   <hr/>
+   <iframe src="https://www.studywithanis.com/" height="350px" width="650px"> </iframe>
+   <iframe width="650" height="350" src="https://www.youtube.com/embed/sn5nAMyROKM?si=urnbWxI4_f7SOgR7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <hr/>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum odor amet, consectetuer adipiscing elit. Anatoque neque lacinia erat ligula quis blandit. In dictumst habitasse suspendisse id class libero mauris bibendum. Suspendisse dignissim etiam tempor dui adipiscing. Lacinia semper cubilia elit velit quisque dignissim maximus. Pulvinar semper ante sed mi; vestibulum eu. Dignissim mauris quisque tellus tellus risus class mauris.
+
+Ultrices rutrum condimentum litora eu nisi molestie, faucibus laoreet egestas. 
+
+Varius lobortis class nulla fames sapien praesent quis senectus condimentum. 
+
+Vitae neque torquent tempor curae mauris. Facilisi felis ullamcorper ante diam, nascetur vivamus. Consequat volutpat condimentum gravida porta habitant aptent risus. Curae ornare et fermentum ligula id accumsan. Sit magna facilisi vestibulum lobortis nec magna amet. Eleifend duis fames facilisis ipsum bibendum sollicitudin? Convallis nisl non dictum id facilisi donec. Felis ex orci mauris porttitor, placerat urna conubia vivamus.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+   <p> Ut enim ad minim veniam,Massa phasellus mauris nascetur adipiscing himenaeos. quis nostrud exercitation ullamco  Parturient taciti ut luctus; inceptos turpis pharetra. Enim hac sagittis velit lectus diam malesuada a. Adipiscing blandit luctus praesent fringilla velit. Lectus aliquam diam viverra, diam torquent mattis. Quam nostra ante fames duis pellentesque morbi commodo curabitur. laboris nisi ut aliquip ex ea commodo consequat.</p>
+   <p> Duis aute irure dolor in reprehenderit in voluptate Massa phasellus mauris nascetur adipiscing himenaeos. Parturient taciti ut luctus; inceptos turpis pharetra. Enim hac sagittis velit lectus diam malesuada a. Adipiscing blandit luctus praesent fringilla velit. Lectus aliquam diam viverra, diam torquent mattis. Quam nostra ante fames duis pellentesque morbi commodo curabitur. velit esse cillum dolore eu fugiat nulla pariatur.</p>
+   <p>  Excepteur sint occaecat cupidatat non proident, Massa phasellus mauris nascetur adipiscing himenaeos.Parturient taciti ut luctus; inceptos turpis pharetra. Enim hac sagittis velit lectus diam malesuada a. Adipiscing blandit luctus praesent fringilla velit. Lectus aliquam diam viverra, diam torquent mattis. Quam nostra ante fames duis pellentesque morbi commodo curabitur. sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+   
+   <hr/>
+   <table border="1">
+    <caption> Student Information </caption>
+     <thead>
+      <tr>
+       <th> ID </th>
+       <th> NAME </th>
+       <th> GPA </th>
+      </tr>
+     </thead>
+      <tbody>
+       <tr>
+       <td> 101 </td>
+       <td> Rabeya </td>
+       <td> 5 </td>
+      </tr>
+      <tr>
+       <td> 102 </td>
+       <td> Suparna </td>
+       <td> 4.5 </td>
+      </tr>
+      <tr>
+       <td> 103 </td>
+       <td> Lima </td>
+       <td> 2.5 </td>
+      </tr>
+      </tbody>
+   </table>
+   <hr/>
+    <form>
+    <datalist id="names"> 
+     <option value="Anisul Islam">Anisul Islam</option>
+     <option value="Rabeya Begum">Rabeya Begum</option>
+     <option value="Sufia Begum">Sufia Begum</option>
+     <option value="Linkon Talukdar">Linkon Talukdar</option>
+     </datalist>
+    <p> Username : 
+    <input type="text" list="names" placeholder="Only letters and numbers" required pattern="[a-zA-Z0-9]+">
+    </p> 
+  <p> Password :
+    <input type="password" placeholder="enter password please" required>
+    </p>
+   <p> Email : 
+    <input type="email" placeholder="enter your email here" required>
+    </p> 
+    <p> Religion : 
+    <input type="checkbox"> Islam
+    <input type="checkbox"> Hindu
+    </p>
+    <p> Gender :
+    <input type="radio" name="gender"> Male 
+    <input type="radio" name="gender"> Female 
+    </p>
+    <p> Department :
+    <select>
+     <option> CSE </option>
+     <option selected> EEE </option>
+     <option> LLB </option>
+     <option> ENGLISH </option>
+     </select>
+    </p>
+    <p> Feedback : <br/>
+      <textarea>
+      </textarea>
+    </p>
+    <p>
+      <input type="submit" value="sign up">
+      <input type="reset" value="clear">
+    </p>
+   </form>
+    <hr/>
+    <p>
+    <video controls width="320" height="240">
+      <source src="20220514_195717.mp4" type="video/mp4">
+    </video>
+    
+    </p>
+      <ol> 
+        <li> <a href=""> My Facebook Page </a> </li>
+        <li> <a href="https://www.studywithanis.com/"> My Website </a> </li>
+        <li> <a href="" id="#header"> Go to top </a> </li>   <! # MUST>
+      </ol>
+    <p> developed by <font color="red" size="5"> &copy; Bilkish Naher Leena </font> </p>        
+  </body>
+</html>
